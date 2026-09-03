@@ -34,7 +34,7 @@ export default function HeroSection() {
         </motion.div>
       </section>
 
-      <section id="about" className="py-24 md:py-32 px-6 max-w-4xl mx-auto text-center">
+      <section className="py-24 md:py-32 px-6 max-w-4xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
